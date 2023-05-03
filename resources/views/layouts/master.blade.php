@@ -7,7 +7,6 @@
 
 <body>
     @vite('resources/js/app.js')
-    @section('navbar')
 
     @show
         @yield('content')

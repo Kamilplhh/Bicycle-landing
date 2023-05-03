@@ -14,6 +14,7 @@ $(window).scroll(function () {
         let scroll = $(window).scrollTop();
         if (scroll > position) {
             let x = title.indexOf(bike);
+            console.log(x);
             x = x - 1;
 
             if (x == 0) {
@@ -43,6 +44,7 @@ $(window).scroll(function () {
 
         else if (scroll < position){
             let x = title.indexOf(bike);
+            console.log(x);
             x = x + 1;
 
             if (x == 27 || x > 27) {
@@ -65,6 +67,6 @@ $(window).scroll(function () {
             $(document).attr("title", NewTitle);
         }
         position = scroll;
-    }, "500");
+    }, "200");
     
 });
