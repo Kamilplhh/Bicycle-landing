@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 }
 
 .main {
-    height: 10000px;
+    height: auto;
     background-color: #28282B;
     margin-left: 16%;
     width: 66%;
@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
     font-family: 'Lucida Grande', monospace;
     top: 0;
     margin-top: 20%;
-    font-size: 2em;
+    font-size: 4vw;
     text-shadow: 0px 0px 42px rgb(70, 70, 70);
 }
 
@@ -56,10 +56,87 @@ body::-webkit-scrollbar {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    font-size: 4em;
+    font-size: 4em !important;
+}
+
+h1 {
+    font-size: 2em !important;
 }
 
 .box {
+    margin-top: 10vh;
     height: 60vh;
-    border: orange solid 1vh;
+    border: #FF420E solid 1vh;
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row {
+    height: 50%;   
+    width: 100%; 
+    margin-left: 0vh;
+    position: relative;
+}
+
+.box-text {
+    position: absolute;
+    background-color: #FF420E;
+    padding: 0.6vh;
+    bottom: 46%;
+    z-index: 1;
+    right: 28%;
+    font-size: 1em;
+}
+
+.asy {
+    background-color: aqua;
+}
+
+.Isecond {
+    position: relative;
+}
+
+.Isecond > h2 {
+    position: absolute;
+    bottom: 23%;
+    right: 26%;
+    font-size: 17vw;
+    z-index: 2;
+}
+
+.segment {
+    height: 100%;
+}
+
+.segment >h3 {
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.Ithird {
+    height: 50%;
+    background-color: white;
+    margin: 1% 5% 0 5%;
+    width: 90%;
+}
+
+.seg-row {
+    width: auto;
+    padding: 5%;
+    height: 50%;
+}
+
+.last {
+    height: 80vh;
+    background-color: aliceblue;
+    margin-bottom: 5vh;
 }
