@@ -13,52 +13,81 @@
 
     <div class="text">
         <div class="description">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Totam velit adipisci maxime, !
-            </h1>
+            <h2>Cycling is not just a passion it is made to improve your health status!</h2><br>
+            Studies shows that only
         </div>
         <div class="prom">
-            <h1>20%</h1>
-            <h1>50%</h1>
+            <div style="padding-right:0.5vw;">
+                <h1 style="font-size: 11em !important;">20%</h1><br>
+                Only use their bike's THREE times per ONE week
+            </div>
+            <div style="padding-left:0.5vw;">
+                <h1 style="font-size: 11em !important;">50%</h1><br>
+                Only use their bike's ONCE per TWO weeks
+            </div>
         </div>
-
-
     </div>
+
     <div class="box">
         <div class="box-text">
-            <h1>Control</h1>
+            <h1>Enjoy</h1>
         </div>
         <div class="row">
-            <div class="col-4 grid">x</div>
-            <div class="col-4 grid asy">y</div>
-            <div class="col-4 grid">z</div>
+            <div class="col-4 grid">
+                <h5>“You are one ride away from a good mood.”
+                    <br>~Sarah Bentley, British cyclist
+                </h5>
+            </div>
+            <div class="col-4 grid asy">
+                <img src="images/bike1.jpg" width="100%" height="100%">
+            </div>
+            <div class="col-4 grid">
+                <h5>“The bicycle is a curious vehicle. Its passenger is its engine.”
+                    <br>~John Howard, US cyclist
+                </h5>
+            </div>
         </div>
         <div class="row">
-            <div class="col-4 grid asy">x</div>
-            <div class="col-4 grid">y</div>
-            <div class="col-4 grid asy">z</div>
+            <div class="col-4 grid asy">
+                <img src="images/bike2.jpeg" width="100%" height="100%">
+            </div>
+            <div class="col-4 grid">
+                <h5>“Don’t buy upgrades, ride up grades.”
+                    <br>~Eddy Merckx, Belgian pro racer
+                </h5>
+            </div>
+            <div class="col-4 grid asy">
+                <img src="images/bike3.jpg" width="100%" height="100%">
+            </div>
         </div>
 
     </div>
     <div class="image Isecond">
         <center>
-            <h1>Endurance</h1>
+            <h3>Brace the</h3>
+            <h1 style="margin-bottom: 1%;">NATURE</h1>
         </center>
         <h2>ECO</h2>
         <img src="images/bicycle2.jpeg" width="100%" />
     </div>
     <div class="segment">
         <h3>Be smart<br>
-        Play your economic way</h3>
-    <div class="image Ithird"></div>
+            Play your economic way</h3>
+        <div class="image Ithird">
+            <img src="/images/electric1.jpg" width="100%" height="100%">
+        </div>
         <div class="row seg-row">
-            <div class="col 6 grid" style="margin-right: 1%;">x</div>
-            <div class="col 6 grid" style="margin-left: 1%;">z</div>
+            <div class="col 6 grid" style="margin-right: 1%;">
+                <img src="/images/electric2.png" width="100%" height="100%">
+            </div>
+            <div class="col 6 grid" style="margin-left: 1%;">
+                <img src="/images/electric3.png" width="100%" height="100%">
+            </div>
         </div>
     </div>
     <div class="last">
         <div class="image last">
-            
+            <img src="/images/lastbike1.jpg" width="100%" height="100%">
         </div>
     </div>
 </div>
