@@ -8,6 +8,13 @@
 
 <body>
     @vite('resources/js/app.js')
+    @section('navbar')
+        <div class="main-navbar">
+            <h4><a href="/" class="home-a">Home</a>
+            <a href="/">Bike's</a>
+            <a href="/">Parts</a>
+            <a href="/">Contact</a></h4>
+        </div>
 
     @show
         @yield('content')
