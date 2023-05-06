@@ -98,6 +98,8 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     align-content: center; 
+    opacity: 0;
+    transition: 7s;
 }
 
 h1 {
@@ -162,7 +164,7 @@ h1 {
 }
 
 .segment {
-    height: 120%;
+    height: auto;
 }
 
 .segment>h3 {
@@ -179,11 +181,10 @@ h1 {
 .seg-row {
     width: auto;
     padding: 5%;
-    height: 50%;
+    height: auto;
 }
 
 .last {
-    margin-top: 6%;
     height: 80vh;
     background-color: aliceblue;
 }
@@ -195,7 +196,8 @@ h1 {
     h5 {
         font-size: 1em;
     }
-    .seg-row {
-        height: 35%;
-    }
+}
+
+.appear {
+    opacity: 1;
 }

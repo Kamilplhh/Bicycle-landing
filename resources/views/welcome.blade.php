@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
+@vite('resources/js/scroll-out.js')
+
 <div class="main">
     <div class="image Ifirst">
         <div class="image-text Tfirst">
@@ -14,16 +16,16 @@
     <div class="text">
         <div class="description">
             <h2>Cycling is not just a passion it is made to improve your health status!</h2><br>
-            Studies shows that only
+            <h6>Studies shows that only</h6>
         </div>
         <div class="prom">
             <div style="padding-right:0.5vw;">
                 <h1 style="font-size: 11em !important;">20%</h1><br>
-                Only use their bike's THREE times per ONE week
+                <h6>Only use their bike's THREE times per ONE week</h6>
             </div>
             <div style="padding-left:0.5vw;">
                 <h1 style="font-size: 11em !important;">50%</h1><br>
-                Only use their bike's ONCE per TWO weeks
+                <h6>Only use their bike's ONCE per TWO weeks</h6>
             </div>
         </div>
     </div>
